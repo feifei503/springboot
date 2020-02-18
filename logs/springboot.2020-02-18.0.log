@@ -1,0 +1,82 @@
+20:49:18.285 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: /Users/dongfeifei/IdeaProjects/springboot/logback.xml (No such file or directory)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:324)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.feifei.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: java.io.FileNotFoundException: /Users/dongfeifei/IdeaProjects/springboot/logback.xml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:317)
+	... 14 common frames omitted
+20:57:59.333 [main] INFO  c.f.springboot.SpringbootApplication - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 18426 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+20:57:59.336 [main] INFO  c.f.springboot.SpringbootApplication - No active profile set, falling back to default profiles: default
+20:58:00.221 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+20:58:00.231 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+20:58:00.232 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:58:00.232 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+20:58:00.308 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:58:00.308 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 920 ms
+20:58:00.665 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+20:58:00.697 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+20:58:00.700 [main] INFO  c.f.springboot.SpringbootApplication - Started SpringbootApplication in 2.153 seconds (JVM running for 2.767)
+20:58:23.191 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:58:23.192 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:58:23.198 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+20:58:37.566 [http-nio-8001-exec-3] INFO  c.f.s.controller.JsonController - ======测试日志info级别打印=====
+20:58:37.566 [http-nio-8001-exec-3] ERROR c.f.s.controller.JsonController - =====测试日志error级别打印====
+20:58:37.566 [http-nio-8001-exec-3] WARN  c.f.s.controller.JsonController - ======测试日志warn级别打印=====
+20:58:37.566 [http-nio-8001-exec-3] INFO  c.f.s.controller.JsonController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+20:58:37.761 [http-nio-8001-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+21:00:06.485 [main] INFO  c.f.springboot.SpringbootApplication - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 18839 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+21:00:06.489 [main] INFO  c.f.springboot.SpringbootApplication - No active profile set, falling back to default profiles: default
+21:00:07.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+21:00:07.409 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+21:00:07.410 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:00:07.410 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+21:00:07.464 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:00:07.464 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 824 ms
+21:00:07.755 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+21:00:07.783 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+21:00:07.786 [main] INFO  c.f.springboot.SpringbootApplication - Started SpringbootApplication in 1.798 seconds (JVM running for 2.343)
+21:00:12.759 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:00:12.760 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:00:12.763 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+21:00:12.777 [http-nio-8001-exec-1] INFO  c.f.s.controller.JsonController - ======测试日志info级别打印=====
+21:00:12.777 [http-nio-8001-exec-1] ERROR c.f.s.controller.JsonController - =====测试日志error级别打印====
+21:00:12.777 [http-nio-8001-exec-1] WARN  c.f.s.controller.JsonController - ======测试日志warn级别打印=====
+21:00:12.777 [http-nio-8001-exec-1] INFO  c.f.s.controller.JsonController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+21:02:06.506 [main] INFO  c.f.springboot.SpringbootApplication - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 18986 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+21:02:06.521 [main] INFO  c.f.springboot.SpringbootApplication - No active profile set, falling back to default profiles: default
+21:02:07.358 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+21:02:07.364 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+21:02:07.364 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:02:07.365 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+21:02:07.420 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:02:07.420 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+21:02:07.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+21:02:07.735 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+21:02:07.738 [main] INFO  c.f.springboot.SpringbootApplication - Started SpringbootApplication in 1.841 seconds (JVM running for 2.35)
+21:02:19.816 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:02:19.817 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:02:19.820 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+21:02:19.834 [http-nio-8001-exec-1] INFO  c.f.s.controller.JsonController - ======测试日志info级别打印=====
+21:02:19.834 [http-nio-8001-exec-1] ERROR c.f.s.controller.JsonController - =====测试日志error级别打印====
+21:02:19.834 [http-nio-8001-exec-1] WARN  c.f.s.controller.JsonController - ======测试日志warn级别打印=====
+21:02:19.834 [http-nio-8001-exec-1] INFO  c.f.s.controller.JsonController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="encoding" value="UTF-8" />
+
+    <!-- 文件记录 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/springboot.log</file>
+        <Append>true</Append>
+        <prudent>false</prudent>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>
+                %d{yyyy-MM-dd/HH:mm:ss.SSS}|%X{localIp}|%X{requestId}|%X{requestSeq}|%X{traceId}|^_^|[%t] %-5level %logger{50} %line - %m%n
+            </pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/springboot.log.%d{yyyy-MM-dd}.%i</fileNamePattern>>
+            <maxFileSize>256MB</maxFileSize>
+            <maxHistory>15</maxHistory>
+            <totalSizeCap>32GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- error日志输出 -->
+    <appender name="ERRORFILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/springboot-error.log</file>
+        <Append>true</Append>
+        <prudent>false</prudent>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>
+                %d{yyyy-MM-dd/HH:mm:ss.SSS}|%X{localIp}|%X{requestId}|%X{requestSeq}|%X{traceId}|^_^|[%t] %-5level %logger{50} %line - %m%n
+            </pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/springboot-error.%d{yyyy-MM-dd}.%i</fileNamePattern>>
+            <maxFileSize>56MB</maxFileSize>
+            <maxHistory>15</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter"><!-- 只打印错误日志 -->
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd/HH:mm:ss.SSS}|%X{localIp}|%X{requestId}|%X{requestSeq}|%X{traceId}|^_^|[%t]%-5level %logger{50} %line - %m%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- 慢查询 -->
+    <appender name="SLOW"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <file>logs/springboot-slow.log</file>
+        <prudent>false</prudent>
+        <Append>true</Append>
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd/HH:mm:ss.SSS}|%X{localIp}|%X{requestId}|%X{requestSeq}|^_^|sqlQueryTime:%X{sqlQueryTime}|sqlReportType:%X{sqlReportType}|sqlFailureType:%X{sqlFailureType}|^_^|[%t]
+                %-5level %logger{50} %line - %m%n
+            </pattern>
+        </encoder>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/springboot-slow.log.%d{yyyy-MM-dd}.%i
+            </fileNamePattern>
+            <maxFileSize>64MB</maxFileSize>
+            <maxHistory>15</maxHistory>
+            <totalSizeCap>32GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+
+    <logger name="org.apache.tomcat.jdbc.pool.interceptor.SlowQueryReportExt">
+        <appender-ref ref="SLOW" />
+    </logger>
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+        <appender-ref ref="ERRORFILE" />
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

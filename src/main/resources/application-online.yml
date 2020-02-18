@@ -1,7 +1,11 @@
-spring:
-  profiles:
-    active:
-    - dev
+server:
+  port: 8001
+
+logging:
+  config: classpath:log/logback_online.xml
+  level:
+    com.feifei.springboot.dao: trace #线上error或debug
+
 
 # 配置微服务的地址
 url:
