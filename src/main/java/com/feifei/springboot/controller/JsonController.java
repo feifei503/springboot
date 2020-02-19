@@ -1,9 +1,13 @@
 package com.feifei.springboot.controller;
 
 import com.feifei.springboot.dto.User;
+import com.feifei.springboot.entity.TUser;
 import com.feifei.springboot.result.JsonResult;
+import com.feifei.springboot.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,10 +18,12 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/json")
-
 public class JsonController {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonController.class);
+
+    @Autowired
+    private UserService userService;
 
 
 
@@ -76,6 +82,11 @@ public class JsonController {
         logger.info("======倪升武的个人博客：{}；倪升武的CSDN博客：{}", str1, str2);
 
         return "success";
+    }
+
+    @RequestMapping("getUser/{id}")
+    public TUser getUser(@PathVariable Long id){
+        return userService.getUserById(id);
     }
 
 

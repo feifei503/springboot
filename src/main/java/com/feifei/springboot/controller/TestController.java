@@ -6,6 +6,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @description 测试
+ * @author 闲得无聊
+ * @date 2020/2/19
+ */
 @RestController
 @RequestMapping(value = "/test", produces = "application/json; charset=UTF-8")
 public class TestController {
@@ -65,7 +70,7 @@ public class TestController {
         return "success";
     }
 
-    @PostMapping("/form1")
+    @PostMapping("/testForm")
     public String testForm(@RequestParam String username, @RequestParam String password) {
         System.out.println("获取到的username为：" + username);
         System.out.println("获取到的password为：" + password);
@@ -75,8 +80,8 @@ public class TestController {
     /**
      * 很多参数 用实体接收
      */
-    @PostMapping("/form2")
-    public String testForm(User user) {
+    @PostMapping("/testFormV2")
+    public String testFormV2(User user) {
         System.out.println("获取到的username为：" + user.getUsername());
         System.out.println("获取到的password为：" + user.getPassword());
         return "success";

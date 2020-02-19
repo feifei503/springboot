@@ -1,99 +1,714 @@
-2020-02-18/21:02:46.705|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 19024 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:02:46.712|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 651 - No active profile set, falling back to default profiles: default
-2020-02-18/21:02:47.592|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:02:47.598|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:02:47.599|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:02:47.599|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:02:47.714|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:02:47.715|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 932 ms
-2020-02-18/21:02:48.052|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:02:48.094|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:02:48.098|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 1.997 seconds (JVM running for 2.536)
-2020-02-18/21:02:49.965|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:02:49.965|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:02:49.969|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 4 ms
-2020-02-18/21:02:49.982|||||^_^|[http-nio-8001-exec-1] INFO  com.feifei.springboot.controller.JsonController 69 - ======测试日志info级别打印=====
-2020-02-18/21:02:49.982|||||^_^|[http-nio-8001-exec-1] ERROR com.feifei.springboot.controller.JsonController 70 - =====测试日志error级别打印====
-2020-02-18/21:02:49.983|||||^_^|[http-nio-8001-exec-1] WARN  com.feifei.springboot.controller.JsonController 71 - ======测试日志warn级别打印=====
-2020-02-18/21:02:49.983|||||^_^|[http-nio-8001-exec-1] INFO  com.feifei.springboot.controller.JsonController 76 - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
-2020-02-18/21:05:31.606|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 19144 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:05:31.609|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 651 - No active profile set, falling back to default profiles: default
-2020-02-18/21:05:32.478|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:05:32.486|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:05:32.486|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:05:32.487|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:05:32.535|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:05:32.535|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 852 ms
-2020-02-18/21:05:32.808|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:05:32.843|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:05:32.848|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 1.959 seconds (JVM running for 2.57)
-2020-02-18/21:07:43.373|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:07:43.373|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:07:43.378|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
-2020-02-18/21:07:43.393|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 25 - =====获取的订单服务地址为：http://localhost:8002
-2020-02-18/21:11:13.094|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 19361 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:11:13.098|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 651 - No active profile set, falling back to default profiles: default
-2020-02-18/21:11:13.889|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:11:13.898|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:11:13.898|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:11:13.898|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:11:13.950|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:11:13.950|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 813 ms
-2020-02-18/21:11:14.210|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:11:14.238|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:11:14.241|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 1.747 seconds (JVM running for 2.352)
-2020-02-18/21:11:23.149|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:11:23.150|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:11:23.155|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
-2020-02-18/21:11:23.170|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 37 - =====获取的订单服务地址为：http://localhost:8002
-2020-02-18/21:11:23.171|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 38 - =====获取的用户服务地址为：http://localhost:8003
-2020-02-18/21:11:23.172|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 39 - =====获取的购物车服务地址为：http://localhost:8004
-2020-02-18/21:14:43.060|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 19506 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:14:43.064|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 651 - No active profile set, falling back to default profiles: default
-2020-02-18/21:14:43.929|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:14:43.936|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:14:43.936|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:14:43.937|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:14:43.983|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:14:43.984|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 868 ms
-2020-02-18/21:14:44.312|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:14:44.340|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:14:44.344|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 2.244 seconds (JVM running for 3.067)
-2020-02-18/21:14:46.957|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:14:46.958|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:14:46.961|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 3 ms
-2020-02-18/21:14:46.974|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 37 - =====获取的订单服务地址为：http://localhost:8002
-2020-02-18/21:14:46.975|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 38 - =====获取的用户服务地址为：http://localhost:8003
-2020-02-18/21:14:46.976|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 39 - =====获取的购物车服务地址为：http://localhost:8004
-2020-02-18/21:23:35.987|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 19912 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:23:35.991|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
-2020-02-18/21:23:36.678|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:23:36.684|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:23:36.685|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:23:36.685|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:23:36.727|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:23:36.727|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 686 ms
-2020-02-18/21:23:36.973|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:23:37.006|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:23:37.009|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 1.664 seconds (JVM running for 2.224)
-2020-02-18/21:23:46.049|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:23:46.049|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:23:46.054|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
-2020-02-18/21:23:46.073|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 37 - =====获取的订单服务地址为：http://localhost:8002
-2020-02-18/21:23:46.074|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 38 - =====获取的用户服务地址为：http://localhost:8003
-2020-02-18/21:23:46.074|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 39 - =====获取的购物车服务地址为：http://localhost:8004
-2020-02-18/21:43:07.517|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 20672 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
-2020-02-18/21:43:07.571|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
-2020-02-18/21:43:08.576|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
-2020-02-18/21:43:08.586|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:43:08.587|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
-2020-02-18/21:43:08.588|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-02-18/21:43:08.654|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
-2020-02-18/21:43:08.654|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1025 ms
-2020-02-18/21:43:08.992|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
-2020-02-18/21:43:09.030|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
-2020-02-18/21:43:09.036|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 2.297 seconds (JVM running for 2.965)
-2020-02-18/21:43:33.988|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18/21:43:33.988|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
-2020-02-18/21:43:33.994|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms
-2020-02-18/21:43:34.023|||||^_^|[http-nio-8001-exec-1] INFO  com.feifei.springboot.controller.TestController 47 - 获取到的id为1,name为张三
+2020-02-19/12:22:15.931|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26698 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:22:15.951|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:22:17.362|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:22:17.369|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:22:17.370|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:22:17.371|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:22:17.450|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:22:17.451|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1431 ms
+2020-02-19/12:22:18.199|||||^_^|[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 15: modelBuilderPluginRegistry,modelPropertyBuilderPluginRegistry,typeNameProviderPluginRegistry,documentationPluginRegistry,apiListingBuilderPluginRegistry,operationBuilderPluginRegistry,parameterBuilderPluginRegistry,expandedParameterBuilderPluginRegistry,resourceGroupingStrategyRegistry,operationModelsProviderPluginRegistry,defaultsProviderPluginRegistry,pathDecoratorRegistry,relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+2020-02-19/12:22:18.203|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/12:22:18.218|||||^_^|[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/12:22:18.227|||||^_^|[main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 15 were found:
+	- modelBuilderPluginRegistry: defined in null
+	- modelPropertyBuilderPluginRegistry: defined in null
+	- typeNameProviderPluginRegistry: defined in null
+	- documentationPluginRegistry: defined in null
+	- apiListingBuilderPluginRegistry: defined in null
+	- operationBuilderPluginRegistry: defined in null
+	- parameterBuilderPluginRegistry: defined in null
+	- expandedParameterBuilderPluginRegistry: defined in null
+	- resourceGroupingStrategyRegistry: defined in null
+	- operationModelsProviderPluginRegistry: defined in null
+	- defaultsProviderPluginRegistry: defined in null
+	- pathDecoratorRegistry: defined in null
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2020-02-19/12:23:26.983|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26747 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:23:26.986|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:23:27.961|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:23:27.973|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:23:27.974|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:23:27.974|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:23:28.069|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:23:28.070|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1046 ms
+2020-02-19/12:23:28.438|||||^_^|[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 3: relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+2020-02-19/12:23:28.441|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/12:23:28.454|||||^_^|[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/12:23:28.459|||||^_^|[main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 3 were found:
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2020-02-19/12:23:45.619|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26757 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:23:45.624|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:23:46.484|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:23:46.490|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:23:46.491|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:23:46.491|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:23:46.540|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:23:46.540|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 857 ms
+2020-02-19/12:23:46.883|||||^_^|[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 3: relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+2020-02-19/12:23:46.886|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/12:23:46.897|||||^_^|[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/12:23:46.900|||||^_^|[main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 3 were found:
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2020-02-19/12:25:54.248|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26842 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:25:54.288|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:25:55.221|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:25:55.232|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:25:55.233|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:25:55.233|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:25:55.314|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:25:55.315|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 969 ms
+2020-02-19/12:25:55.649|||||^_^|[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 3: relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+2020-02-19/12:25:55.652|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/12:25:55.665|||||^_^|[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/12:25:55.670|||||^_^|[main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 3 were found:
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2020-02-19/12:25:59.265|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26848 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:25:59.268|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:26:00.129|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:26:00.134|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:26:00.135|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:26:00.135|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:26:00.187|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:26:00.188|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 861 ms
+2020-02-19/12:26:00.465|||||^_^|[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 3: relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+2020-02-19/12:26:00.468|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/12:26:00.479|||||^_^|[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/12:26:00.482|||||^_^|[main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 3 were found:
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2020-02-19/12:28:18.007|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26956 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:28:18.013|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:28:19.020|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:28:19.032|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:28:19.033|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:28:19.033|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:28:19.129|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:28:19.130|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1054 ms
+2020-02-19/12:28:19.530|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:28:19.567|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/12:28:19.571|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 2.389 seconds (JVM running for 3.457)
+2020-02-19/12:28:55.103|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 26979 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:28:55.105|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:28:56.208|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:28:56.216|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:28:56.217|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:28:56.217|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:28:56.294|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:28:56.295|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1126 ms
+2020-02-19/12:28:56.547|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/12:28:56.719|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 160 - Context refreshed
+2020-02-19/12:28:56.739|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+2020-02-19/12:28:56.771|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/12:28:57.041|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:28:57.072|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/12:28:57.076|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 2.768 seconds (JVM running for 3.458)
+2020-02-19/12:29:47.647|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/12:29:47.649|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/12:29:47.659|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms
+2020-02-19/12:29:47.679|||||^_^|[http-nio-8001-exec-1] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /swagger-ui.html
+2020-02-19/12:30:59.274|||||^_^|[http-nio-8001-exec-4] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /swagger-ui.html
+2020-02-19/12:34:40.299|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MBP with PID 27238 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/12:34:40.302|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/12:34:41.681|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/12:34:41.692|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:34:41.693|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/12:34:41.693|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/12:34:41.782|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/12:34:41.783|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1445 ms
+2020-02-19/12:34:42.098|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/12:34:42.345|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-02-19/12:34:42.364|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-02-19/12:34:42.404|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/12:34:42.820|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/12:34:42.854|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/12:34:42.857|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 3.515 seconds (JVM running for 4.32)
+2020-02-19/12:34:47.416|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/12:34:47.416|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/12:34:47.425|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 8 ms
+2020-02-19/12:34:47.440|||||^_^|[http-nio-8001-exec-1] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /swagger-ui.html
+2020-02-19/12:36:04.230|||||^_^|[http-nio-8001-exec-4] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /swagger-ui.html
+2020-02-19/12:36:55.846|||||^_^|[http-nio-8001-exec-5] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /
+2020-02-19/12:37:09.791|||||^_^|[http-nio-8001-exec-8] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /api
+2020-02-19/12:37:20.708|||||^_^|[http-nio-8001-exec-10] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for GET /test
+2020-02-19/12:37:29.163|||||^_^|[http-nio-8001-exec-1] INFO  c.f.springboot.controller.TestConfigController 31 - =====获取的订单服务地址为：http://localhost:8002
+2020-02-19/14:06:58.695|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 29131 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/14:06:58.699|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/14:07:00.162|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/14:07:00.174|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/14:07:00.175|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/14:07:00.175|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/14:07:00.255|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/14:07:00.256|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1396 ms
+2020-02-19/14:07:00.596|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/14:07:00.840|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-02-19/14:07:00.866|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-02-19/14:07:00.899|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/14:07:01.177|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/14:07:01.210|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/14:07:01.213|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 3.439 seconds (JVM running for 4.519)
+2020-02-19/14:07:08.613|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/14:07:08.613|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/14:07:08.619|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
+2020-02-19/14:07:08.636|||||^_^|[http-nio-8001-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-19/14:07:23.611|||||^_^|[http-nio-8001-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-19/14:07:39.121|||||^_^|[http-nio-8001-exec-6] ERROR c.feifei.springboot.handle.GlobalExceptionHandler 35 - 缺少请求参数，Required String parameter 'pass' is not present
+2020-02-19/15:30:54.565|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 32822 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/15:30:54.572|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/15:30:56.031|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/15:30:56.043|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/15:30:56.043|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/15:30:56.044|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/15:30:56.126|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/15:30:56.126|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1487 ms
+2020-02-19/15:30:56.612|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/15:30:56.998|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-02-19/15:30:57.021|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-02-19/15:30:57.053|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/15:30:57.262|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/15:30:57.296|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/15:30:57.299|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 3.656 seconds (JVM running for 4.454)
+2020-02-19/15:31:06.195|||||^_^|[http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/15:31:06.197|||||^_^|[http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/15:31:06.227|||||^_^|[http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 30 ms
+2020-02-19/15:31:06.274|||||^_^|[http-nio-8001-exec-2] ERROR c.feifei.springboot.handle.GlobalExceptionHandler 35 - 缺少请求参数，Required String parameter 'pass' is not present
+2020-02-19/15:31:19.415|||||^_^|[http-nio-8001-exec-4] ERROR c.feifei.springboot.handle.GlobalExceptionHandler 35 - 缺少请求参数，Required String parameter 'pass' is not present
+2020-02-19/15:31:40.525|||||^_^|[http-nio-8001-exec-6] INFO  com.feifei.springboot.handle.LogAspectHandler 52 - ====doBefore方法进入了====
+2020-02-19/15:31:40.528|||||^_^|[http-nio-8001-exec-6] INFO  com.feifei.springboot.handle.LogAspectHandler 60 - 即将执行方法为: sayHello，属于com.feifei.springboot.controller.TestController包
+2020-02-19/15:31:40.529|||||^_^|[http-nio-8001-exec-6] INFO  com.feifei.springboot.handle.LogAspectHandler 69 - 用户请求的url为：http://localhost:8001/test/sayHello，ip地址为：0:0:0:0:0:0:0:1
+2020-02-19/15:31:40.538|||||^_^|[http-nio-8001-exec-6] INFO  com.feifei.springboot.handle.LogAspectHandler 79 - ====doAfter方法进入了====
+2020-02-19/15:31:40.538|||||^_^|[http-nio-8001-exec-6] INFO  com.feifei.springboot.handle.LogAspectHandler 82 - 方法sayHello已经执行完
+2020-02-19/15:34:07.822|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 32946 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/15:34:07.835|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/15:34:09.093|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/15:34:09.101|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/15:34:09.102|||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/15:34:09.102|||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/15:34:09.148|||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/15:34:09.149|||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1276 ms
+2020-02-19/15:34:09.491|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/15:34:09.817|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-02-19/15:34:09.829|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-02-19/15:34:09.849|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/15:34:10.000|||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/15:34:10.032|||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/15:34:10.036|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 2.911 seconds (JVM running for 3.688)
+2020-02-19/15:34:12.447|||||^_^|[http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/15:34:12.448|||||^_^|[http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/15:34:12.465|||||^_^|[http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 17 ms
+2020-02-19/15:34:12.533|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 49 - ====doBefore方法进入了====
+2020-02-19/15:34:12.534|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 57 - 即将执行方法为: getUserV2，属于com.feifei.springboot.controller.JsonController包
+2020-02-19/15:34:12.535|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 66 - 用户请求的url为：http://localhost:8001/json/userV1，ip地址为：0:0:0:0:0:0:0:1
+2020-02-19/15:34:12.540|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 76 - ====doAfter方法进入了====
+2020-02-19/15:34:12.540|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 79 - 方法getUserV2已经执行完
+2020-02-19/15:34:12.541|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 92 - 方法getUserV2执行完毕，返回参数为：com.feifei.springboot.result.JsonResult@1b416c41
+2020-02-19/15:34:12.541|||||^_^|[http-nio-8001-exec-2] INFO  com.feifei.springboot.handle.LogAspectHandler 94 - 对返回参数进行业务上的增强：com.feifei.springboot.result.JsonResult@1b416c41增强版
+2020-02-19/16:25:22.784|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplicationTests 55 - Starting SpringbootApplicationTests on dongfeifeis-MacBook-Pro.local with PID 35165 (started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/16:25:22.788|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplicationTests 655 - The following profiles are active: dev
+2020-02-19/16:25:26.310|||||^_^|[main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-19/16:25:27.281|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-02-19/16:25:27.318|||||^_^|[main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-02-19/16:25:27.369|||||^_^|[main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/16:25:27.740|||||^_^|[main] INFO  com.feifei.springboot.SpringbootApplicationTests 61 - Started SpringbootApplicationTests in 5.717 seconds (JVM running for 8.025)
+2020-02-19/18:51:40.648|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 44728 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/18:51:40.652|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/18:51:40.705|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/18:51:40.706|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/18:51:41.409|||||^_^|[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.feifei.springboot]' package. Please check your configuration.
+2020-02-19/18:51:41.726|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/18:51:42.239|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/18:51:42.260|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/18:51:42.261|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/18:51:42.261|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/18:51:42.322|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/18:51:42.323|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1617 ms
+2020-02-19/18:51:42.443|||||^_^|[restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.feifei.springboot.dao.TUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-02-19/18:51:42.445|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/18:51:42.539|||||^_^|[restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/18:51:42.646|||||^_^|[restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.feifei.springboot.dao.TUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.feifei.springboot.dao.TUserMapper' in your configuration.
+
+2020-02-19/18:53:08.625|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 44792 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/18:53:08.664|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/18:53:08.728|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/18:53:08.728|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/18:53:09.541|||||^_^|[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.feifei.springboot]' package. Please check your configuration.
+2020-02-19/18:53:09.856|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/18:53:10.351|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/18:53:10.360|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/18:53:10.361|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/18:53:10.361|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/18:53:10.431|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/18:53:10.431|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1702 ms
+2020-02-19/18:53:10.536|||||^_^|[restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.feifei.springboot.dao.TUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-02-19/18:53:10.538|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/18:53:10.634|||||^_^|[restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/18:53:10.729|||||^_^|[restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.feifei.springboot.dao.TUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.feifei.springboot.dao.TUserMapper' in your configuration.
+
+2020-02-19/18:53:50.544|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 44815 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/18:53:50.580|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/18:53:50.641|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/18:53:50.641|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/18:53:51.370|||||^_^|[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.feifei.springboot]' package. Please check your configuration.
+2020-02-19/18:53:51.663|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/18:53:52.187|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/18:53:52.198|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/18:53:52.199|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/18:53:52.199|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/18:53:52.281|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/18:53:52.282|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1640 ms
+2020-02-19/18:53:52.384|||||^_^|[restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.feifei.springboot.dao.TUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-02-19/18:53:52.387|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/18:53:52.478|||||^_^|[restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/18:53:52.577|||||^_^|[restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.feifei.springboot.dao.TUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.feifei.springboot.dao.TUserMapper' in your configuration.
+
+2020-02-19/18:54:56.851|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 44870 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/18:54:56.854|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/18:54:56.913|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/18:54:56.914|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/18:54:58.197|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/18:54:58.901|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/18:54:58.910|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/18:54:58.911|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/18:54:58.912|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/18:54:58.989|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/18:54:58.989|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2071 ms
+2020-02-19/18:54:59.344|||||^_^|[restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+2020-02-19/18:54:59.348|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/18:54:59.367|||||^_^|[restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/18:54:59.379|||||^_^|[restartedMain] ERROR org.springframework.boot.SpringApplication 826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.feifei.springboot.SpringbootApplication.main(SpringbootApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 81 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder.bind(DruidDataSourceBuilder.java:48)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder.build(DruidDataSourceBuilder.java:41)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:44)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ecfdc886.CGLIB$dataSource$0(<generated>)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ecfdc886$$FastClassBySpringCGLIB$$686ed63b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ecfdc886.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 82 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.bind.RelaxedDataBinder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 95 common frames omitted
+2020-02-19/20:32:05.258|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 46479 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/20:32:05.262|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/20:32:05.344|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/20:32:05.344|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/20:32:07.017|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/20:32:07.608|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/20:32:07.619|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/20:32:07.620|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/20:32:07.621|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/20:32:07.700|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/20:32:07.701|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2356 ms
+2020-02-19/20:32:07.953|||||^_^|[restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+2020-02-19/20:32:07.956|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-02-19/20:32:07.973|||||^_^|[restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-19/20:32:07.982|||||^_^|[restartedMain] ERROR org.springframework.boot.SpringApplication 826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jsonController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.feifei.springboot.SpringbootApplication.main(SpringbootApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [/Users/dongfeifei/IdeaProjects/springboot/target/classes/com/feifei/springboot/dao/TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 81 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/bind/RelaxedDataBinder
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder.bind(DruidDataSourceBuilder.java:48)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder.build(DruidDataSourceBuilder.java:41)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:44)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ad6b923c.CGLIB$dataSource$0(<generated>)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ad6b923c$$FastClassBySpringCGLIB$$abb862a4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ad6b923c.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 82 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.bind.RelaxedDataBinder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 95 common frames omitted
+2020-02-19/20:40:19.444|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 55 - Starting SpringbootApplication on dongfeifeis-MacBook-Pro.local with PID 46844 (/Users/dongfeifei/IdeaProjects/springboot/target/classes started by dongfeifei in /Users/dongfeifei/IdeaProjects/springboot)
+2020-02-19/20:40:19.449|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 655 - The following profiles are active: dev
+2020-02-19/20:40:19.587|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-19/20:40:19.588|||||^_^|[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-19/20:40:21.123|||||^_^|[restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-19/20:40:21.802|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8001 (http)
+2020-02-19/20:40:21.822|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8001"]
+2020-02-19/20:40:21.824|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-02-19/20:40:21.825|||||^_^|[restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19/20:40:21.935|||||^_^|[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-02-19/20:40:21.935|||||^_^|[restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2347 ms
+2020-02-19/20:40:22.256|||||^_^|[restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-02-19/20:40:22.357|||||^_^|[restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource 971 - {dataSource-1} inited
+2020-02-19/20:40:23.362|||||^_^|[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2020-02-19/20:40:23.941|||||^_^|[restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 120 - Context refreshed
+2020-02-19/20:40:23.967|||||^_^|[restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper 123 - Found 1 custom documentation plugin(s)
+2020-02-19/20:40:23.988|||||^_^|[restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-02-19/20:40:24.202|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingGET_1
+2020-02-19/20:40:24.204|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingHEAD_1
+2020-02-19/20:40:24.209|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingPOST_1
+2020-02-19/20:40:24.213|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingPUT_1
+2020-02-19/20:40:24.215|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingPATCH_1
+2020-02-19/20:40:24.217|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingDELETE_1
+2020-02-19/20:40:24.219|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingOPTIONS_1
+2020-02-19/20:40:24.221|||||^_^|[restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator 40 - Generating unique operation named: getUserUsingTRACE_1
+2020-02-19/20:40:24.411|||||^_^|[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8001"]
+2020-02-19/20:40:24.479|||||^_^|[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8001 (http) with context path ''
+2020-02-19/20:40:24.484|||||^_^|[restartedMain] INFO  com.feifei.springboot.SpringbootApplication 61 - Started SpringbootApplication in 6.684 seconds (JVM running for 8.976)
+2020-02-19/20:40:46.078|||||^_^|[http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-19/20:40:46.079|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-02-19/20:40:46.104|||||^_^|[http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 25 ms
+2020-02-19/20:40:46.142|||||^_^|[http-nio-8001-exec-1] WARN  org.springframework.web.servlet.PageNotFound 1251 - No mapping for POST /json/getUser
+2020-02-19/20:40:52.623|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 49 - ====doBefore方法进入了====
+2020-02-19/20:40:52.626|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 57 - 即将执行方法为: getUser，属于com.feifei.springboot.controller.JsonController包
+2020-02-19/20:40:52.628|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 66 - 用户请求的url为：http://localhost:8001/json/getUser/1，ip地址为：0:0:0:0:0:0:0:1
+2020-02-19/20:40:53.113|||||^_^|[http-nio-8001-exec-3] DEBUG c.f.springboot.dao.TUserMapper.selectByPrimaryKey 143 - ==>  Preparing: select id, username, `password` from t_user where id = ? 
+2020-02-19/20:40:53.138|||||^_^|[http-nio-8001-exec-3] DEBUG c.f.springboot.dao.TUserMapper.selectByPrimaryKey 143 - ==> Parameters: 1(Long)
+2020-02-19/20:40:53.156|||||^_^|[http-nio-8001-exec-3] TRACE c.f.springboot.dao.TUserMapper.selectByPrimaryKey 149 - <==    Columns: id, username, password
+2020-02-19/20:40:53.157|||||^_^|[http-nio-8001-exec-3] TRACE c.f.springboot.dao.TUserMapper.selectByPrimaryKey 149 - <==        Row: 1, asd, 123
+2020-02-19/20:40:53.159|||||^_^|[http-nio-8001-exec-3] DEBUG c.f.springboot.dao.TUserMapper.selectByPrimaryKey 143 - <==      Total: 1
+2020-02-19/20:40:53.161|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 76 - ====doAfter方法进入了====
+2020-02-19/20:40:53.162|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 79 - 方法getUser已经执行完
+2020-02-19/20:40:53.162|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 92 - 方法getUser执行完毕，返回参数为：TUser [Hash = 980907851, id=1, username=asd, password=123, serialVersionUID=1]
+2020-02-19/20:40:53.162|||||^_^|[http-nio-8001-exec-3] INFO  com.feifei.springboot.handle.LogAspectHandler 94 - 对返回参数进行业务上的增强：TUser [Hash = 980907851, id=1, username=asd, password=123, serialVersionUID=1]增强版
