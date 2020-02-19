@@ -7,4 +7,6 @@ public interface UserService {
     TUser getUserById(Long id);
 
     void insertUser(TUser user);
+
+
 }
